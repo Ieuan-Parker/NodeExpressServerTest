@@ -9,6 +9,8 @@ var database = [] //making an empty array to test putting items into a database
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 
+
+//api routes using express
 app.get('/api/hello', (req, res) => {
     res.send({ express: 'Its ya test node server' });
 });
